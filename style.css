@@ -6,15 +6,20 @@ body {
     justify-content: center;
 }
 
-#grid-container {
+.grid-container {
     display: flex;
     flex-wrap: wrap;
-    max-width: 256px;
-    max-height: 256px;
+    flex-shrink: 0;
+    width: 512px;
+    border: 1px solid black;
 }
 
 .pixel {
-    width: 16px;
-    height: 16px;
+    width: 30px;
+    height: 30px;
     border: 1px solid black;
+}
+
+.pixel:hover {
+    background-color: black;
 }
