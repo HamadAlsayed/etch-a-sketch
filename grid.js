@@ -9,5 +9,12 @@ function createGrid(x) {
         }
     }
 }
-
 createGrid(16);
+
+const pixel = document.querySelectorAll(".pixel");
+
+pixel.forEach((pixel) => {
+    pixel.addEventListener("mouseover", () => {
+        pixel.style.backgroundColor = "black";
+    });
+});
