@@ -1,21 +1,21 @@
 body {
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.clear-grid {
+    margin: 12px;
 }
 
 .grid-container {
     display: flex;
     flex-wrap: wrap;
     flex-shrink: 0;
-    width: 512px;
-    border: 1px solid black;
-}
-
-.pixel {
-    width: 30px;
-    height: 30px;
+    width: 500px;
+    height: 500px;
     border: 1px solid black;
 }
